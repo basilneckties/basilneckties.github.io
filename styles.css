@@ -116,7 +116,7 @@ i {
   opacity: 0.7;
   color: #000;
   font-size: 14px;
-  padding: 8px 10px 5px 10px;
+  padding: 8px 5px 5px 5px;
   font-family: 'Old Standard TT', serif;
 }
 
@@ -188,73 +188,6 @@ box-shadow: 12px 12px 2px 1px rgb(7, 7, 7);
   border-top-left-radius: 50%;
   
 
-}
-
-
-
-#about-div {
-  margin-top: 20px;
-  border-top: 3px solid #fafafa;
-  border-left: 3px solid #fafafa;
-  box-shadow: 12px 12px 2px 1px #000;
-  padding: 60px 60px 10px 60px;
-  height: 400px;
-  text-align: justify;
-  border-top-left-radius: 50%;
-  border-bottom-left-radius: 5%;
-  border-top-right-radius: 50%;
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-
-
-}
-
-#secret-div {
-  margin-top: 20px;
-  border-top: 1px dotted #fafafa;
-  border-right: 1px dotted #fafafa;
-  padding: 20px 40px 10px 40px;
-  height: 400px;
-  text-align: justify;
-  border-top-left-radius: 30%;
-
-}
-
-
-
-#contact-div {
-
-  height: 400px;
-  margin-top: 120px;
-  margin-bottom: 150px;
-  border-top: 1px dotted #000;
-  border-left: 1px dotted #000;
-  padding: 20px 40px 10px 40px;
-  text-align: justify;
-  border-top-right-radius: 50%;
-}
-
-
-
-#about-div h2,
-#contact-div h2  {
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #fafafa;
-  
-
-}
-
-#secret-div h2 {
-
-  background-color: #fafafa;
-  color: #000;
-  text-align: center;
-  margin-bottom: 20px;
-  margin-top: 20px;
 }
 
 p{
