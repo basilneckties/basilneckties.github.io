@@ -91,7 +91,7 @@ i {
   border-bottom: 1px dotted rgb(46, 45, 45);
   border-bottom-left-radius: 50%;
   border-top-left-radius: 50%;
-  margin-bottom: 185px;
+  margin-bottom: 80px;
  
   
 
@@ -296,3 +296,48 @@ footer i {
 
 }
 
+#logo-display {
+
+  background-image: url("img/bg.png");
+  background-repeat: no-repeat;
+  display: black;
+  height: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+  animation: logo-display 10s linear;
+ animation-iteration-count: infinite;
+ box-shadow: 12px 12px 2px 1px rgb(7, 7, 7);
+}
+
+@keyframes logo-display {
+
+  0% {
+
+    background-image: url("img/bg.png");
+    transition: 5s ease-in;
+
+  }
+
+  30% {
+
+    background-image: url("img/01.jpg");
+    transition: 3s ease-in;
+  }
+  60% {
+
+    background-image: url("img/02.jpg");
+    transition: 3s ease-in;
+  }
+
+  80% {
+
+    background-image: url("img/03.jpg");
+    transition: 3s ease-in;
+  }
+
+  100% {
+
+    background-image: url("img/04.jpg");
+    transition: 3s ease-in;
+  }
+}
